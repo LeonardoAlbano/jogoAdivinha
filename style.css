@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+  
+    background: linear-gradient(50deg, rgba(2,0,36,1) 4%, rgba(52,52,191,1) 32%, rgba(38,209,244,1) 97%, rgba(0,212,255,0.8683473389355743) 98%);
+
+
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body, button, input{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.651);
+    box-shadow: 0px 2px 4px rgba(2,0,36,1);
+    border-radius: .6rem;
+
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    
+    margin-top: -12rem;
+    text-align: center;
+}
+
+/* Screeen 1
+*******************************************************/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+h1, p{
+    color: rgb(106, 42, 165);
+}
+
+p{
+    opacity: .8rem;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    background-color: rgba(24, 119, 209, 0.603);
+    color: aliceblue;
+    width: 7rem;
+    border-radius:  .4rem 0 0 .4rem ;
+
+}
+
+button {
+    background-color: rgba(106, 42, 165, 0.815);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+
+    transition: background 2s;
+}
+
+button:hover{
+    background-color: rgba(31, 28, 221, 0.884);;
+}
+
+
+/* Screeen 2
+*******************************************************/
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button{
+    border-radius: .4rem;
+}
